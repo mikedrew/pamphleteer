@@ -1,0 +1,3 @@
+echo raspberry | sudo -S airmon-ng start wlan0
+echo raspberry | sudo -S mdk3 mon0 b -f ssidList
+
